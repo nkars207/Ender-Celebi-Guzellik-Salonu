@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo {
+    color: #594841;
+    font-size: 42px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: #d9d6c1;
+}
+
+
+.hizmetler.baslik {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+
+}
+
+.yanbaslik {
+    font-size: 60px;
+    color: #594841;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.paragraf {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}

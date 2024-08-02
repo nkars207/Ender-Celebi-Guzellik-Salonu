@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo {
+    color: #594841;
+    font-size: 42px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: #d9d6c1;
+}
+.image-logo {
+    height: 50px;
+    width: auto;
+    margin-top: 35px;
+    margin-left: 125px;
+}
+
+.colorful-title {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.colorful-title span {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.colorful-title .letter1 { color: #0c88f5; }
+.colorful-title .letter2 { color: #ba1a14; }
+.colorful-title .letter3 { color: #fac23e; }
+.colorful-title .letter4 { color: #0c88f5; }
+.colorful-title .letter5 { color: #249628; }
+.colorful-title .letter6 { color: #ba1a14; }
+
+
+.sub-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px; /* Alt başlık ile üst başlık arasındaki boşluk */
+}
+
+.paragraph {
+    font-size: 16px;
+    margin-top: 20px; /* Paragraf ile alt başlık arasındaki boşluk */
+}
+
+.form-container {
+    margin-top: 30px; /* Formun üstteki başlıktan ne kadar uzakta olacağını belirler */
+}
+
+.form-container input {
+    display: block;
+    width: 100%;
+    max-width: 300px; /* Giriş kutularının genişliğini ayarlar */
+    padding: 10px;
+    margin-bottom: 10px; /* Giriş kutuları arasındaki boşluk */
+    font-size: 16px;
+}
+
+.form-container button {
+    display: block;
+    width: 100%;
+    max-width: 300px; /* Butonun genişliğini ayarlar */
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007BFF; /* Butonun arka plan rengini ayarlar */
+    color: white; /* Butonun metin rengini ayarlar */
+    border: none; /* Butonun kenarlığını kaldırır */
+    cursor: pointer; /* Fare imlecini değiştirir */
+    margin-bottom: 10px; /* Alt kısımdan boşluk bırakır */
+}
+
+.form-container button:hover {
+    background-color: #0056b3; /* Butonun üzerine gelindiğinde arka plan rengini değiştirir */
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}

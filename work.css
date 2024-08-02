@@ -1,0 +1,154 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo {
+    color: #594841;
+    font-size: 42px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: #d9d6c1;
+}
+
+
+.is.baslik {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.yanbaslik{
+    font-size: 60px;
+    color: #594841;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.paragraf{
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.center{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.center h1 {
+    color: #594841;
+    text-align: center;
+}
+
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translate(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.txt_field span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    transition: .5s;
+}
+
+.pass {
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+
+.pass:hover {
+    text-decoration: underline;
+}
+
+input[type='submit'] {
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #594841;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
